@@ -70,7 +70,7 @@ if selected_model:
     st.write(new_data)
 
     # Make prediction when the button is pressed
-    if st.sidebar.button('Predict') and selected_model_instance:
+    if st.sidebar.button('Predict'):
         # Use the selected model to make predictions
         prediction = selected_model_instance.predict(new_data)
         
