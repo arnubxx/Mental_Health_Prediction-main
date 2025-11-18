@@ -5,10 +5,10 @@ from streamlit_option_menu import option_menu
 
 # Try loading multiple pre-trained models (Logistic Regression, Random Forest, etc.)
 try:
-    rf_model_path = '/home/panda/Desktop/DMML Project/Randomf.sav'
+    rf_model_path = 'Randomf.sav'
     rf_model = pickle.load(open(rf_model_path, 'rb'))
 
-    knn_model_path = '/home/panda/Desktop/DMML Project/KNN.sav'
+    knn_model_path = 'KNN.sav'
     knn_model = pickle.load(open(knn_model_path, 'rb'))
 
 except Exception as e:
